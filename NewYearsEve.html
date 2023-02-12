@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesForm.css">
+  <title>NewYearsEve</title>
+  <script src="Form.js"></script>
+</head>
+<body>
+    <h1>New Year's Eve</h1>
+    <br>
+    <h5>Create your Firework</h5>
+    <br><br>
+    <form id="Form">
+    <fieldset id="fieldset1">
+        <legend class="headline">Collection</legend>
+            <br>
+            <span>Name</span> &nbsp;&nbsp;
+            <input type="text" name="collection" id="" value="Configuration" placeholder="Configuration">
+            <br><br>
+            <button type="button">show</button>
+            <br><br>
+    </fieldset>
+    <fieldset id="fieldset2">
+        <legend class="headline">Configurations</legend>
+            <br>
+            <span>Color</span> &nbsp;&nbsp;
+            <input type="text" name="color" id="" placeholder="yellow">
+            <br><br>
+            <span>Number of Rockets</span> &nbsp;&nbsp;
+            <input type="text" name="numberRockets" id="" placeholder="1 - 100">
+            <br><br>
+            <span>Gravity</span> &nbsp;&nbsp;
+            <input type="text" name="gravity" id="" placeholder="0.1 - 1">
+            <br><br>
+            <span>Id</span> &nbsp;&nbsp;
+            <input type="text" name="id" id="" value="63e80e976597d"> 
+            <br><br>
+            <button type="button">update</button> &nbsp; <input type="reset" id="resetButton"> &nbsp; <button type="button"><a href="index.html">Start</a></button>
+            <br><br>
+        <fieldset id="fieldset3">
+            <legend class="headline">Query</legend>
+            <br>
+            <input type="text" disabled id="query">
+            <br><br>
+        </fieldset>
+        <fieldset id="fieldset4">
+            <legend class="headline">Result</legend>
+            <br>
+            <textarea name="Result" id="" cols="60" rows="20"></textarea>
+        </fieldset>
+    <fieldset>
+    </form>
+</body>
+</html>
